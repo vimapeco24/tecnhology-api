@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reactive.programming.challenge.domain.usecase.TechnologyUseCaseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-05-21T19:45:49.608Z" hostname="VICTOR-PEREZC.local" time="0.267">
+  <properties/>
+  <testcase name="createTechnologyWithInvalidDescriptionShouldThrowBadRequest()" classname="com.reactive.programming.challenge.domain.usecase.TechnologyUseCaseTest" time="0.047"/>
+  <testcase name="createTechnologyWithInvalidNameShouldThrowBadRequest()" classname="com.reactive.programming.challenge.domain.usecase.TechnologyUseCaseTest" time="0.004"/>
+  <testcase name="createTechnologyWithOnlyNumbersInNameShouldThrowBadRequest()" classname="com.reactive.programming.challenge.domain.usecase.TechnologyUseCaseTest" time="0.002"/>
+  <testcase name="createTechnologyWithValidDataShouldReturnTechnology()" classname="com.reactive.programming.challenge.domain.usecase.TechnologyUseCaseTest" time="0.208"/>
+  <system-out><![CDATA[14:45:49.622 [Test worker] INFO com.reactive.programming.challenge.domain.usecase.TechnologyUseCase -- Registering technology: Spring Boot
+14:45:49.661 [Test worker] INFO com.reactive.programming.challenge.domain.usecase.TechnologyUseCase -- Registering technology: React.......................................................................
+14:45:49.665 [Test worker] INFO com.reactive.programming.challenge.domain.usecase.TechnologyUseCase -- Registering technology: 624231123
+14:45:49.767 [Test worker] INFO com.reactive.programming.challenge.domain.usecase.TechnologyUseCase -- Registering technology: HTML
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
